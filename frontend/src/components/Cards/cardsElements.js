@@ -9,7 +9,9 @@ export const DivWraper = styled.div`
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
     padding: 20px 5%;
 `;
@@ -24,13 +26,13 @@ export const Card = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 10px 1%;
-    border: 10px solid transparent;
+    border: 10px solid rgba(212, 187, 250);
     transition: all 0.5s;
     cursor: pointer;
 
     &:hover{
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
+        -webkit-transform: scale(1.04);
+        transform: scale(1.04);
     }
 `;
 
